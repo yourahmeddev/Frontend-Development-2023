@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+  </head>
+
+  <body>
+    <form action="" method="post">
+      <h1>Payment Form</h1>
+      <h2>Contact Information</h2>
+      <p>Name: <input type="text" name="name" required /></p>
+      <fieldset>
+        <legend>Gender</legend>
+        <p>
+          Male: <input type="radio" name="gender" required  value="Male"/> Female:
+          <input type="radio" name="gender"required value="Female" /> other:
+          <input type="radio" name="gender" value="other" required />
+        </p>
+      </fieldset>
+      <p>
+        <legend>Address</legend>
+        <textarea name="" id="" cols="100" rows="7" required></textarea>
+      </p>
+      <!-- adding email -->
+      <p>
+        <legend>Email</legend>
+        <input type="email" name="email" id="email" required>
+      </p>
+      <p>
+        <legend>Pin code</legend>
+        <input type="number">
+      </p>
+      <hr>
+      <h2>Payment Information</h2>
+      <p>
+        <legend>Card Type</legend>
+        <select name="card_type" id="card_type" required>
+         <option value="">Select a Card Type</option>
+         <option value="Visa">Visa</option>
+         <option value="Master Card">Master Card</option>
+         <option value="Pay Pak">PayPak</option>
+         <option value="JazzCash">JazzCash</option>
+        </select>
+      </p>
+      <!-- adding card number -->
+      <p>
+        <legend>Card Number:</legend>
+        <input type="number" name="card_number" id="card_number" required>
+      </p>
+      <p>
+        <legend>
+            Expiration Date:
+        </legend>
+        <input type="date" name="exp_date" id="exp_date" required>
+      </p>
+      <!-- adding card cvv -->
+      <p>
+        <legend>CVV</legend>
+        <input type="password" name="cvv_code" id="cvv_code">
+      </p>
+      <!-- adding submit button -->
+      <p>
+        <input type="submit" value="Pay now" required >
+      </p>
+    </form>
+  </body>
+</html>

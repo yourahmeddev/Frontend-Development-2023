@@ -1,0 +1,13 @@
+.first-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 60px;
+    font-weight: 700;
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-indent: 12px;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+}

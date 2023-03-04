@@ -1,0 +1,59 @@
+/* universival selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: blue;
+}
+.classselector{
+    color: red;
+}
+#idselector{
+    color: magenta;
+}
+a[href="https:google.com"]{
+    color: chocolate;
+}
+a[href="#"]{
+    color: deeppink;
+    text-decoration: none;
+}
+/* pseudoclass selector */
+.pseudoclass{
+    color: black;
+    background-color: yellow;
+    padding: 15px 30px;
+    font-size: 60px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.pseudoclass:hover{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+.psudoelement::first-line{
+    color: blue;
+}
+.psudoelement::first-letter{
+    font-size: 50px;
+}
+article>h4{
+    color: green;
+}
+article>p{
+    color: blue;
+}
+article>a{
+    color: blue;
+    font-size: 50px;
+    text-decoration: none;
+}
+article>h3{
+    color: red;
+}
+h6+p{
+    color:magenta;
+}

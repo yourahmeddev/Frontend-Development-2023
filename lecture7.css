@@ -1,0 +1,18 @@
+html{
+    font-size: 25px;
+}
+.percent{
+    font-size: 200%;
+}
+.em{
+    font-size:1em;
+}
+.rem{
+    font-size: 1rem;
+}
+.box{
+    height: 10vh;
+    width: 50vw;
+    background-color: blue;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lecture-8-specifity.css">
+    <style>
+        .love-subject{
+            color: red;
+            font-size: 50px
+        }
+        #Hate-subject{
+            color: blue;
+            font-size: 60px
+        }
+        ul#computer-science-subjects li{
+            color: black;
+            font-size: 70px;
+            list-style-type: none;
+        }
+        ul#computer-science-subjects li#Hate-subject{
+            color:blue;
+            font-size: 70px;
+        }
+    </style>
+</head>
+<body>
+    <ul id="computer-science-subjects">
+        <li>Programming Fundamentals</li>
+        <li class="love-subject">Object Oriented Programming</li>
+        <li id="Hate-subject">Data Structure And Algorithm</li>
+    </ul>
+</body>
+</html>
